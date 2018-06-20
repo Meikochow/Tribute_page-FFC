@@ -1,0 +1,2 @@
+# Tribute_page-FFC
+The html/css/Js behind my #1 Project from the Responsive Web Design Projects- Tribute Page.  I know it's nothing special but anyway i've decided to save the initially codepen based code on GH.  Please in the attempts of reading the code ignore the total lack of helpfull commenting, again i dont expect this code to be of any use for anyone.  In case you have any questions feel more than free to bother me and ask whatever questions you may have.
