@@ -1,0 +1,46 @@
+<head>
+  <script src="https://rawgit.com/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+  </head>
+<body>  
+  <main id="main">
+  <header>  <h1 id="title">
+Inio Asano</h1>
+          <blockquote><p>
+        "The voice of his generation" - Yomiuri Shimbun </p>
+        </blockquote>
+    </header>
+    <div id="img-div">
+<img id="image" src="https://lh3.googleusercontent.com/dbpTE8mWQmFM1TOuDa-mvcBYtPqTViY-FY47FGiyC7OmtmfMHyeQKltfHwYToM_0AM3K3_LIXbLnxP06PWf9boNQ_aDFv1hew-pgFbNKxX83o05YxnIe-kzdR1pjXAJREK27EuBoNTWE_-Wz05t4PBbqDhuV4nOfMArxZp6FcwTfd2xH5NALNxSMsHwEEtHl17qvGpijwtnYTUOg-d9P3zFttZ6D3nkLnZLoWMvRSfVyCJAKKmVN8s9qsJ5zfMTnXnvJNghUr6CM1SOKR4VKvjw2-uW3PVi2RmfDTlGoBNt4SolQcNGKbitY0D24ATFwRJqdvhhoxjQI0yim-LHooSvoBmfXb8eNo1pXnAqaIyNiXvhN466R7fsseYsC66yo3LKT-PyMZeCtYMw8IbvsC9FnBbMaxCVt129ZsQi9R5N9ucJoNSDLd_kvuzm58JILzvQdqbQ2ZhvDgBncKaGShXo-Wb18H7V3joHkyz6V9chIglzgluRn8NF_60Rmo04Ip-3zC2aa_77nDrG26KuNxIZVTZqvUdfuhFyk64zmOlo_yHz3CwIIqk7fS8RpHHPnp2FhXmo4Z8Z36O5V0nuLWlnBe7ZkhQY1bZqcvT8=w370-h520-no" alt="Asano Inio in a winter jacket on a forest background">
+      <figcaption id="img-caption">
+        Asano Inio in a forest on a mild japanese winter evening. <br> (image source: comicvine.gamespot.com)
+        </figcaption>
+      </div>
+    <article id="tribute-info">
+      <ul>
+              <li>September 22, 1980  -  Asano Inio,born in Ishioka, Ibaraki Prefecture, Japan.</li>
+              <li>       Japanese manga author (mangaka), known for creating character-driven, realist stories, ranging from slice of life to psychological horror.</li>
+              <li>2001  -   won his first prize, GX competition for young manga artists.</li>
+        </ul> 
+      <div id="notableWorks">Notable Works:
+      <ul>
+        <li><a href="https://www.mangaupdates.com/series.html?id=5836" target="_blank">What a Wonderful World!</a></li>
+        <li><a href="https://www.mangaupdates.com/series.html?id=6515" target="_blank">Nijigahara Holograph</a></li>
+        <li><a href="https://www.mangaupdates.com/series.html?id=23071" target="_blank">Hikari no Machi</a></li>
+        <li><a href="https://www.mangaupdates.com/series.html?id=38428" target="_blank">Sekai no Owari to Yoake Mae</a></li>
+        <li><a href="http://tvtropes.org/pmwiki/pmwiki.php/Manga/Solanin" target="_blank">Solanin</a></li>
+        <li><a href="http://tvtropes.org/pmwiki/pmwiki.php/Manga/GoodnightPunpun" target="_blank">Goodnight Punpun</a></li>
+        <li><a href="https://www.mangaupdates.com/series.html?id=78302" target="_blank">Ozanari Kun </a></li>
+        <li><a href="http://tvtropes.org/pmwiki/pmwiki.php/Manga/AGirlOnTheShore" target="_blank">A Girl on the Shore</a></li>
+        <li><a href="http://tvtropes.org/pmwiki/pmwiki.php/Manga/DeadDeadDemonsDededededestruction" target="_blank">Dead Dead Demon's Dededede Destruction</a></li>
+        </ul>
+      </div>
+      <fieldset>
+          <p> A new Asano Inio quote every 10 seconds:</p>
+          <blockquote id="quote"></blockquote>
+        </fieldset>
+      <a id="tribute-link" href="http://tvtropes.org/pmwiki/pmwiki.php/Creator/InioAsano" target="_blank">More about Asano Inio on goodreads.com</a>
+      </article>
+    <footer> VictorCojocaru2018?</footer>
+    
+    </main>
+  </body>
