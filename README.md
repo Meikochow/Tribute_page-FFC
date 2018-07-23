@@ -4,3 +4,4 @@ The html/css/Js behind my #1 Project from the Responsive Web Design Projects- Tr
 1.The Js file is almost not needed as it contains only an array of quotes and a simple function that displays a random one every 10 seconds.(kind of not the point of the project, but i decided to include it anyway.)
 2.The jQuery is 3.2.1 version and is not needed at all, but at the time it seemed the fastest solution.
 3.The responsiveness of the page is based on @media query.
+Check it out live: https://rawgit.com/Meikochow/Tribute_page-FFC/master/index.html
