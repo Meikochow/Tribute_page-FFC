@@ -1,70 +1,16 @@
-<head>
-  <script src="https://rawgit.com/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
-  <style>
-    body{
-  background-image:url("https://lh3.googleusercontent.com/yqs_Q4GzkeWazRY8kgSny7xKQcVnZhHIOs_o94fQolYVhW6S2e1R_Y1kpm-yrkYehMZKOm_O3HbqS49IH0rHJKJhUEPmfrlh3LpAvQzzkr4sFffcqfssBcZvH-8R29qNYT_W3kuzEqrhMu1imvjPjiSqGEgwIUBYrXzRXu65QMLPLRUUjXN3cK-k7U9RpiJ51Y6y0qKzYlcn0mO3b3FWkv1qiEdSVnuy22E_T4pl0rEZNmneekHnvQmzaCXtUzCo0LFXyo_AuB5dYakxtwkJs8RJ4n2sCAv_bwZmMUriuV_MQgZ6I8ejiF1iH74c0Eg1QDp6DsKazy49-3Hr6atSEqmqcZCgbQd9kWPKDtyISppOf9-KyJplNWDcWKDwkHYzOx8ZCO3lR8HFuAzd4UqVPE4e70NhAZ74CByAXf6XSz4dd97zhK57m-Jr6O5asV27ZVt06dguCTOr7eMyEElCc2d0Dzwmlu2bvHI9P82Ah3UVX1-ogvHCKD5GmuJAX5MveeVp2rC5bU59YsjkFSMWog1QU-QuTWA-JWyCJNXhq6EJng2lENchDDp1_nItRXozj7Ibw4roNTiSjGP6jRJQCkaEcBfAn35Z37zBlVg=w789-h800-no");
-  background-size:100px;
-  min-width:300px;
-}
-#main{
-  text-align:center;
-  background: rgba(255, 230, 255, 0.95);
-  margin:3em;
-  font-color:white;
-}
-header{
-    margin-left:20vw;
-  margin-right:20vw;
-}
-article{
-/*   border: 3px solid red;; */
-  text-align:center;
-}
-ul{
-  padding:0px;
-}
-li{
-/*   border: 3px solid black; */
-  margin-left:20vw;
-  margin-right:20vw;
-  list-style-position:outside;
-  text-align:left;
-}
 
-img {
-margin:auto;
-max-width: 100%;
-display: block;
-height: auto;
-}
-/* #notableWorks{
-  width:1000px;
-} */
-#quote{
-  margin-left:2em;
-  margin-right:2em;
-  border:2px double pink;
-  background-color:white;
-  opacity:1;
-}
-@media (max-width: 600px) {
-  body{
-    background-size:50px;
-  }
-  #main{
-    margin:3%;
-    
-  }
-}
-    </style>
-  <script>
-    var quotes = ["Freedom without any purpose feels a whole lot like boredom.","I wondered if the Demon that whispered 'Why not be free?' was Freedom itself. - Solanin.","I have no idea what to do with myself. And while I wait for my epiphany, I feel the toxins collecting in my body.", "Isn't it better to regret things you've done, than regret things you've never even tried? - Solanin.", "The world is drowning in weirdness and lies......and here we are, so used to it that we're actually bored! - Solanin.","When you're sincere about doing something, you're stalked by the fear that there's no turning back.","Right now my life has an expiration date determined by my bank balance. Can I find something before my time is up?","I'm not some pure heart chasing after dreams. I know how difficult it is to live an ordinary life, having to overlook each other's shortcomings.","…If we see shooting stars, what would you wish for, Punpun? Wishing upon shooting stars doesn’t make them come true. Right, but what if. What would you wish if they did…? I’d wish for shooting stars to disappear forever. - Goodnight Punpun.","Punpun was just fine again today. - Oyasumi Punpun", "I once lost something in precious in this place.But I think it's by losing things...... that we grow up to be adults. - Nijigahara Holograph.","In our life there are moments when we have to move forward...Regardless of how others may see us. Even if I make a mistake, I wont regret it!","... back then the sky seemed so vast. And now the sky above me... is low, and narrow, and heavy. - Solanin.","If pretending to know was childish and pretending not to know was adult, then Punpun thought that he was still probably just a child. - Goodnight Punpun","You were scared they were going to laugh at you, right? So let them! People who discourage others will never find their own happiness! - Goodnight Punpun","'Happiness 'describes moments, and it's never permanent. - Goodnight Punpun", "If only the last dozen years were just a dream my younger self was having, how wonderful that would be. - Nijigahara Holograph"];
-$("#quote").text("This is the main character, what do you think? - Goodnight PunPun.  Inio Asano");
-setInterval(function(){ $("#quote").text(quotes[Math.floor(Math.random()*quotes.length)]);
-    //code goes here that will be run every 5 seconds.    
-}, 9000);
-  </script>
-  </head>
+<html lang="en">
+
+<head>
+    <title>Tribute Page</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *;**script-src 'self' http://onlineerp.solution.quebec 'unsafe-inline' 'unsafe-eval';** "> -->
+</head>
+
 <body>  
   <main id="main">
   <header>  <h1 id="title">
@@ -108,3 +54,12 @@ Inio Asano</h1>
     
     </main>
   </body>
+  <script src="https://rawgit.com/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+  <script>
+    var quotes = ["Freedom without any purpose feels a whole lot like boredom.","I wondered if the Demon that whispered 'Why not be free?' was Freedom itself. - Solanin.","I have no idea what to do with myself. And while I wait for my epiphany, I feel the toxins collecting in my body.", "Isn't it better to regret things you've done, than regret things you've never even tried? - Solanin.", "The world is drowning in weirdness and lies......and here we are, so used to it that we're actually bored! - Solanin.","When you're sincere about doing something, you're stalked by the fear that there's no turning back.","Right now my life has an expiration date determined by my bank balance. Can I find something before my time is up?","I'm not some pure heart chasing after dreams. I know how difficult it is to live an ordinary life, having to overlook each other's shortcomings.","…If we see shooting stars, what would you wish for, Punpun? Wishing upon shooting stars doesn’t make them come true. Right, but what if. What would you wish if they did…? I’d wish for shooting stars to disappear forever. - Goodnight Punpun.","Punpun was just fine again today. - Oyasumi Punpun", "I once lost something in precious in this place.But I think it's by losing things...... that we grow up to be adults. - Nijigahara Holograph.","In our life there are moments when we have to move forward...Regardless of how others may see us. Even if I make a mistake, I wont regret it!","... back then the sky seemed so vast. And now the sky above me... is low, and narrow, and heavy. - Solanin.","If pretending to know was childish and pretending not to know was adult, then Punpun thought that he was still probably just a child. - Goodnight Punpun","You were scared they were going to laugh at you, right? So let them! People who discourage others will never find their own happiness! - Goodnight Punpun","'Happiness 'describes moments, and it's never permanent. - Goodnight Punpun", "If only the last dozen years were just a dream my younger self was having, how wonderful that would be. - Nijigahara Holograph"];
+$("#quote").text("This is the main character, what do you think? - Goodnight PunPun.  Inio Asano");
+setInterval(function(){ $("#quote").text(quotes[Math.floor(Math.random()*quotes.length)]);
+    //code goes here that will be run every 5 seconds.    
+}, 9000);
+  </script>
+  </html>
